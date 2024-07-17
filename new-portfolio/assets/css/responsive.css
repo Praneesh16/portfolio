@@ -1,0 +1,356 @@
+/* //Mobile */
+@media (max-width: 767px) {
+
+     section.main-header {
+       display: none;
+     }
+   
+     section.mob-header {
+       display: inline-block !important;
+     }
+   
+     section#home .row {
+       flex-direction: column-reverse;
+     }
+   
+     .banner-image {
+       margin-bottom: 20px;
+     }
+   
+     section#home {
+       padding: 60px 0px;
+     }
+   
+     span.animate-charcter {
+       font-size: 22px !important;
+     }
+   
+     .web-image {
+       display: none;
+     }
+   
+     section#about .row {
+       flex-direction: column-reverse;
+     }
+   
+     .abt-image {
+       margin-bottom: 30px;
+     }
+   
+     .abt-head p {
+       font-size: 16px !important;
+     }
+   
+     .mid-box {
+       margin-bottom: 30px;
+     }
+   
+     section#service {
+       padding: 30px 0;
+     }
+   
+     h5.highlight-two {
+       font-size: 18px;
+     }
+   
+   
+     .lang-text h5 {
+       font-size: 16px !important;
+     }
+   
+     .lang-box:hover .lang-text {
+       top: 40px !important;
+     }
+   
+   
+     a.carousel-control-next {
+       right: 20% !important;
+     }
+   
+     .carousel-control-next,
+     .carousel-control-prev {
+       top: unset;
+       bottom: -80px;
+     }
+   
+     a.carousel-control-prev {
+       left: 20% !important;
+     }
+   
+   
+     .c-head h2 {
+       font-size: 18px !important;
+     }
+   
+     .heart {
+       display: none;
+     }
+   
+     .c-head h5 {
+       font-size: 18px;
+       margin-bottom: 10px !important;
+     }
+   
+     .contact-left {
+       text-align: center;
+     }
+   
+     section.mob-header {
+        width: 100%;
+    }
+   
+    section#contact .row {
+        flex-direction: column-reverse !important;
+    }
+   
+    .copyright {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    section.experience {
+        padding: 60px 0;
+    }
+   
+   
+    .service-image {
+     display: inline-block !important;
+   
+   }
+   
+   .service-image img{
+     width: 100% !important;
+   }
+   
+   
+   
+   }
+   
+   
+   /* //Tab */
+   
+   @media (min-width: 768px) and (max-width: 991px) {
+     section.main-header {
+       display: none;
+     }
+   
+     section.mob-header {
+       display: inline-block !important;
+     }
+   
+     span.animate-charcter {
+        font-size: 20px !important;
+    }
+   
+    section.mob-header {
+        width: 100%;
+    }
+   
+    .banner-text p {
+        font-size: 12px;
+    }
+   
+    section#home {
+        padding: 60px 0;
+    }
+   
+    .abt-head p{
+        font-size: 14px !important;
+    }
+   
+    .web-image img {
+        width: 60%;
+    }
+   
+    .web-image {
+        right: -10px !important;
+    }
+   
+    .mid-box {
+        margin-bottom: 30px;
+    }
+   
+    .service-image img {
+        width: 100% !important;
+    }
+   
+    a.carousel-control-next {
+        right: 0% !important;
+      }
+   
+      .education-box {
+        height: 270px;
+    }
+   
+   
+    .work-detail {
+        height: 330px !important;
+    }
+   
+    .c-head h2 {
+        font-size: 21px !important;
+    }
+   
+   
+    .heart {
+        top: -35px !important;
+        right: -62px !important;
+         
+   
+    }
+   
+    .c-head h5 {
+        font-size: 16px !important;
+    }
+   
+   
+    .i-txt p a {
+        font-size: 16px !important;
+    }
+   
+    .mob-logo img {
+     width: 30% !important;
+   }
+   
+   .edu-details p{
+     font-size: 15px !important;
+   }
+   
+   .edu-details h2 {
+     font-size: 17px !important;
+   }
+   
+   .row.work-row {
+     justify-content: center;
+   }
+   
+   
+   .hover h5{
+     font-size: 18px !important;
+   }
+   
+   
+   .i-txt p {
+     font-size: 16px !important;
+   }
+   
+   
+   .carousel-control-next,
+   .carousel-control-prev {
+     top: unset;
+     bottom: -80px;
+   }
+   
+   a.carousel-control-prev {
+     left: 20% !important;
+   }
+   
+   a.carousel-control-next {
+     right: 30% !important;
+   }
+   
+   }
+   
+   
+   
+   /* //Small-mobile */
+   
+   @media (min-width: 320px) and (max-width: 375px) {
+   
+     section.main-header {
+       display: none;
+     }
+   
+     section.mob-header {
+       display: inline-block !important;
+     }
+   
+   
+     section#contact {
+       padding: 60px 0 !important;
+     }
+   
+     section#contact {
+        padding: 60px 0 !important;
+    }
+   
+     .copyright{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+   
+    .work-detail {
+     height: 330px !important;
+   }
+   
+   .wrk-text h5 {
+     font-size: 18px !important;
+   }
+   
+   h5.highlight-two {
+     font-size: 15px !important;
+   }
+   
+   .i-txt p a{
+     font-size: 16px !important;
+   }
+   
+   .mid-top {
+     width: 320px !important;
+   }
+   
+   }
+   
+   @media (min-width: 300px) and (max-width: 320px){
+   
+     .i-txt p a{
+       font-size: 16px !important;
+     }
+   
+   
+   }
+   
+   
+   
+   /* //Laptop */
+   
+   @media screen and (min-width: 1024px) and (max-width: 1440px) {
+   
+     span {
+       font-size: 16px !important;
+   }
+   
+   span.animate-charcter {
+     font-size: 40px !important;
+   }
+   
+   
+   .web-image{
+     right: -60px !important;
+   }
+   
+   
+   .mid-box {
+     height: 350px !important;
+   }
+   
+   .edu-details p{
+     font-size: 17px !important;
+   }
+   
+   .work-detail{
+     height: 300px !important;
+   }
+   
+   .c-head h2 {
+     font-size: 30px !important;
+   
+   }
+   
+   
+   
+   
+   
+   }
+   
